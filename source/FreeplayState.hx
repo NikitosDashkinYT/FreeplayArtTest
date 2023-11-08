@@ -551,6 +551,13 @@ class FreeplayState extends MusicBeatState
 	}
 }
 
+		var yourSprite:FlxSprite(X of the sprite, Y of the sprite);
+		yourSprite.loadGraphic(Paths.image("your image");
+		yourSprite.scrollFactor.set(0, 0);
+		add(yourSprite);
+	}
+}
+
 class SongMetadata
 {
 	public var songName:String = "";
